@@ -1,4 +1,4 @@
-package main
+package bin
 
 type ClientProfile struct {
 	Email string
