@@ -2,6 +2,7 @@ package main
 
 import (
 	"encoding/json"
+	"fmt"
 	"log"
 	"net/http"
 )
@@ -59,12 +60,22 @@ func UpdateBook(w http.ResponseWriter, r *http.Request) {
 	}
 	defer r.Body.Close()
 
-	// Update Profile
-	book.Title = payloadData.Title
-	book.Desc = payloadData.Desc
-	book.Type = payloadData.Type
-	book.ISBN = payloadData.ISBN
+	// Update Book
+	if payloadData.Title != "" {
+		book.Title = payloadData.Title
+	}
+	if payloadData.Desc != "" {
+		book.Desc = payloadData.Desc
+	}
+	if payloadData.Type != "" {
+		book.Type = payloadData.Type
+	}
+	if payloadData.ISBN != "" {
+		book.ISBN = isbn
+	}
 	bookDatabase[book.ISBN] = book
+
+	fmt.Printf("Book updated: %+v\n", book)
 
 	w.WriteHeader(http.StatusOK)
 }
