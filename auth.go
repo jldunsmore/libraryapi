@@ -8,19 +8,19 @@ import (
 
 func TokenAuthMiddleware(next http.HandlerFunc) http.HandlerFunc {
 	return func(w http.ResponseWriter, r *http.Request) {
-		var clientId = r.URL.Query().Get("clientId")
-		clientProfile, ok := database[clientId]
-		if !ok || clientId == "" {
+		var userId = r.URL.Query().Get("userId")
+		user, ok := userDatabase[userId]
+		if !ok || userId == "" {
 			http.Error(w, "Forbidden", http.StatusForbidden)
 			return
 		}
 		token := r.Header.Get("Authorization")
-		if !isValidToken(clientProfile, token) {
+		if !isValidToken(user, token) {
 			http.Error(w, "Forbidden", http.StatusForbidden)
 			return
 		}
 
-		ctx := c.WithValue(r.Context(), "clientProfile", clientProfile)
+		ctx := c.WithValue(r.Context(), "user", user)
 		r = r.WithContext(ctx)
 
 		next.ServeHTTP(w, r)
@@ -28,9 +28,9 @@ func TokenAuthMiddleware(next http.HandlerFunc) http.HandlerFunc {
 	}
 }
 
-func isValidToken(clientProfile ClientProfile, token string) bool {
+func isValidToken(user User, token string) bool {
 	if strings.HasPrefix(token, "Bearer ") {
-		return strings.TrimPrefix(token, "Bearer ") == clientProfile.Token
+		return strings.TrimPrefix(token, "Bearer ") == user.Token
 	}
 	return false
 }

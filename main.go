@@ -18,9 +18,13 @@ func main() {
 		handler = middleware(handler)
 	}
 
-	http.HandleFunc("/user/profile", handler)
+	http.HandleFunc("/library/book", handler)
 
 	log.Println("Server is running on port 8080...")
 	log.Fatal(http.ListenAndServe(":8080", nil))
 
 }
+
+// curl --request GET \
+// --url http:/localhost:6060/api/messages/public \
+// --header 'authorization: Bearer AUTH0-ACCESS-TOKEN'

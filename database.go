@@ -1,23 +1,35 @@
 package main
 
-type ClientProfile struct {
-	Email string
-	Id    string
+type Book struct {
+	Title string
+	Desc  string
+	Type  string
+	ISBN  string
+}
+
+var bookDatabase = map[string]Book{
+	"9781386123613": {
+		Title: "The Two Week Curse",
+		Desc:  "Two soldiers are transported to a world of magic, cultivation and stat screens and have to rely on old skills and newly learned ones to survive.",
+		Type:  "E-Book",
+		ISBN:  "9781386123613",
+	},
+	"9781638493495": {
+		Title: "The Two Week Curse",
+		Desc:  "Two soldiers are transported to a world of magic, cultivation and stat screens and have to rely on old skills and newly learned ones to survive.",
+		Type:  "Hardcover",
+		ISBN:  "9781638493495",
+	},
+}
+
+type User struct {
 	Name  string
 	Token string
 }
 
-var database = map[string]ClientProfile{
+var userDatabase = map[string]User{
 	"user1": {
-		Email: "george_bush@email.com",
-		Id:    "user1",
-		Name:  "George Buish",
-		Token: "123",
-	},
-	"user2": {
-		Email: "jonDoe@email.com",
-		Id:    "user2",
-		Name:  "jon doe",
-		Token: "456",
+		Name:  "John Doe",
+		Token: "1234",
 	},
 }
