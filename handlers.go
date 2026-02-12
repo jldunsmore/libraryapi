@@ -31,7 +31,7 @@ func SearchDatabase(w http.ResponseWriter, r *http.Request) {
 		fmt.Printf("Search term: %s\n", searchTerm)
 		switch searchTerm {
 		case "BookByISBN":
-			//GetBookByISBN(w, r)
+			GetBookByISBN(w, r)
 		case "BooksByTitle":
 			//GetBooksByTitle(w, r)
 		case "BooksByAuthor":
@@ -48,12 +48,12 @@ func GetBookByISBN(w http.ResponseWriter, r *http.Request) {
 	user := r.Context().Value("user").(User)
 	log.Println("Looking for book, ", user.Name)
 
-	//var isbn = r.URL.Query().Get("isbn")
-	//response = database("ISBN", isbn)
+	var isbn = r.URL.Query().Get("isbn")
+	response = GetBook_ISBN(isbn)
 
-	//w.Header().Set("Content-Type", "application/json")
+	w.Header().Set("Content-Type", "application/json")
 
-	//json.NewEncoder(w).Encode(response)
+	json.NewEncoder(w).Encode(response)
 }
 
 func GetBookByTitle(w http.ResponseWriter, r *http.Request) {
