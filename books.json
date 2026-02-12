@@ -1,0 +1,897 @@
+{
+    "items": [
+        {
+            "kind": "books#volume",
+            "id": "tZVqzQEACAAJ",
+            "etag": "bd9McO/WSuY",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/tZVqzQEACAAJ",
+            "volumeInfo": {
+                "title": "Time of Change",
+                "authors": [
+                    "Michael Chatfield"
+                ],
+                "publishedDate": "2019-02-14",
+                "description": "As the Stone Raiders come into a time of peace, they set upon building up their guild hall and getting back to raiding.Without the worries of immediate battles and constant quests, Dave and Party Zero are free to pursue their passions. New discoveries will be made and advances taken. They've got big plans and ideas for the future what they start now will form and shape that future.In this time of change, possibilities will rise and opportunities will be grasped. It's time to build for the future.",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "1999541197"
+                    },
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9781999541194"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": false
+                },
+                "pageCount": 600,
+                "printType": "BOOK",
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "preview-1.0.0",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=tZVqzQEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=tZVqzQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com/books?id=tZVqzQEACAAJ&dq=inauthor:%22Michael+Chatfield%22&hl=&cd=1&source=gbs_api",
+                "infoLink": "http://books.google.com/books?id=tZVqzQEACAAJ&dq=inauthor:%22Michael+Chatfield%22&hl=&source=gbs_api",
+                "canonicalVolumeLink": "https://books.google.com/books/about/Time_of_Change.html?hl=&id=tZVqzQEACAAJ"
+            },
+            "saleInfo": {
+                "country": "US",
+                "saleability": "NOT_FOR_SALE",
+                "isEbook": false
+            },
+            "accessInfo": {
+                "country": "US",
+                "viewability": "NO_PAGES",
+                "embeddable": false,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false
+                },
+                "pdf": {
+                    "isAvailable": false
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=tZVqzQEACAAJ&hl=&source=gbs_api",
+                "accessViewStatus": "NONE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "New discoveries will be made and advances taken. They&#39;ve got big plans and ideas for the future what they start now will form and shape that future.In this time of change, possibilities will rise and opportunities will be grasped."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "23j9EAAAQBAJ",
+            "etag": "CpwPJhRWgMI",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/23j9EAAAQBAJ",
+            "volumeInfo": {
+                "title": "From The Black",
+                "authors": [
+                    "Michael Chatfield"
+                ],
+                "publisher": "MICHAEL CHATFIELD PUBLICATIONS INC.",
+                "publishedDate": "2022-02-08",
+                "description": "The Universe isn’t always as it appears, something that Salchar and the Free Fleet know only too well. When the black’s own creatures come tearing out from children’s nightmares. The Free Fleet will be there. Some might call those that make up the Free Fleet insane, might call them lunatics. But in this universe, it’s good to have some lunatics on your side.",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9781989377291"
+                    },
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "1989377297"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": true
+                },
+                "pageCount": 358,
+                "printType": "BOOK",
+                "categories": [
+                    "Fiction"
+                ],
+                "maturityRating": "MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "0.1.2.0.preview.1",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=23j9EAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=23j9EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com/books?id=23j9EAAAQBAJ&printsec=frontcover&dq=inauthor:%22Michael+Chatfield%22&hl=&cd=2&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=23j9EAAAQBAJ&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=23j9EAAAQBAJ"
+            },
+            "saleInfo": {
+                "country": "US",
+                "saleability": "FOR_SALE",
+                "isEbook": true,
+                "listPrice": {
+                    "amount": 3.49,
+                    "currencyCode": "USD"
+                },
+                "retailPrice": {
+                    "amount": 3.49,
+                    "currencyCode": "USD"
+                },
+                "buyLink": "https://play.google.com/store/books/details?id=23j9EAAAQBAJ&rdid=book-23j9EAAAQBAJ&rdot=1&source=gbs_api",
+                "offers": [
+                    {
+                        "finskyOfferType": 1,
+                        "listPrice": {
+                            "amountInMicros": 3490000,
+                            "currencyCode": "USD"
+                        },
+                        "retailPrice": {
+                            "amountInMicros": 3490000,
+                            "currencyCode": "USD"
+                        },
+                        "giftable": true
+                    }
+                ]
+            },
+            "accessInfo": {
+                "country": "US",
+                "viewability": "PARTIAL",
+                "embeddable": true,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false
+                },
+                "pdf": {
+                    "isAvailable": true,
+                    "acsTokenLink": "http://books.google.com/books/download/From_The_Black-sample-pdf.acsm?id=23j9EAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=23j9EAAAQBAJ&hl=&source=gbs_api",
+                "accessViewStatus": "SAMPLE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "The Universe isn’t always as it appears, something that Salchar and the Free Fleet know only too well."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "Q83hEAAAQBAJ",
+            "etag": "v6AXZUmtqf0",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/Q83hEAAAQBAJ",
+            "volumeInfo": {
+                "title": "Possessor of the Heart",
+                "authors": [
+                    "Michael Chatfield"
+                ],
+                "publisher": "MICHAEL CHATFIELD PUBLICATIONS INC.",
+                "publishedDate": "1900",
+                "description": "Anthony, the once-proud Guardian turned Death Knight, is back, and he's not alone. With friends like Tommie and Aila by his side, he's on an even wilder ride this time. The trio has been through a lot together, but Anthony still hasn't regained all of his lost powers or unlocked the secrets of his past. Their journey takes them across the treacherous seas of Dena to the enigmatic island nation of Ilsal. It's a place where ancient mysteries and untapped magic await, but so do new challenges and unexpected allies. Anthony will need every ounce of his wits and humor to prevail. In this thrilling second installment of the series, join Anthony, Tommie, and Aila on a rollicking adventure filled with laughter, magic, and danger. Will they unlock the secrets of Ilsal and help Anthony regain his true Guardian powers, or will their quest lead them into even greater peril? One thing's for sure: the journey is bound to be as uproarious and spellbinding as ever!",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9781989377697"
+                    },
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "1989377696"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": true
+                },
+                "pageCount": 162,
+                "printType": "BOOK",
+                "categories": [
+                    "Fiction"
+                ],
+                "maturityRating": "MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "0.1.2.0.preview.1",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=Q83hEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=Q83hEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com/books?id=Q83hEAAAQBAJ&printsec=frontcover&dq=inauthor:%22Michael+Chatfield%22&hl=&cd=3&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=Q83hEAAAQBAJ&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=Q83hEAAAQBAJ"
+            },
+            "saleInfo": {
+                "country": "US",
+                "saleability": "FOR_SALE",
+                "isEbook": true,
+                "listPrice": {
+                    "amount": 4.99,
+                    "currencyCode": "USD"
+                },
+                "retailPrice": {
+                    "amount": 4.99,
+                    "currencyCode": "USD"
+                },
+                "buyLink": "https://play.google.com/store/books/details?id=Q83hEAAAQBAJ&rdid=book-Q83hEAAAQBAJ&rdot=1&source=gbs_api",
+                "offers": [
+                    {
+                        "finskyOfferType": 1,
+                        "listPrice": {
+                            "amountInMicros": 4990000,
+                            "currencyCode": "USD"
+                        },
+                        "retailPrice": {
+                            "amountInMicros": 4990000,
+                            "currencyCode": "USD"
+                        },
+                        "giftable": true
+                    }
+                ]
+            },
+            "accessInfo": {
+                "country": "US",
+                "viewability": "PARTIAL",
+                "embeddable": true,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false
+                },
+                "pdf": {
+                    "isAvailable": true,
+                    "acsTokenLink": "http://books.google.com/books/download/Possessor_of_the_Heart-sample-pdf.acsm?id=Q83hEAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=Q83hEAAAQBAJ&hl=&source=gbs_api",
+                "accessViewStatus": "SAMPLE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "Anthony will need every ounce of his wits and humor to prevail. In this thrilling second installment of the series, join Anthony, Tommie, and Aila on a rollicking adventure filled with laughter, magic, and danger."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "OE5twgEACAAJ",
+            "etag": "jsqXQJWX6wE",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/OE5twgEACAAJ",
+            "volumeInfo": {
+                "title": "Beyond All Expectations",
+                "authors": [
+                    "Michael Chatfield"
+                ],
+                "publisher": "MC Publishing Incorporated",
+                "publishedDate": "2019-02-14",
+                "description": "The Event of Myths and Legends has started! The first spawn points have started to open, issuing forth creatures and people that were banished from Emerilia long ago.Dave and the Pandora's Box group are advancing their plans and building projects as fast as possible. When an opportunity arises to take their projects to the next level they're going to have to use all of their tricks and crafting abilities in order to seize it.The Stone Raiders and the Terra Alliance that they have formed will undergo it's first baptism, the time of peace has ended.In this event they need to be the strongest to protect what they care for. Either they will die again and again losing levels and people of Emerilia, or they will be able to stand, their strength growing to new heights.",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "1989377009"
+                    },
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9781989377000"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": false
+                },
+                "pageCount": 518,
+                "printType": "BOOK",
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "preview-1.0.0",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=OE5twgEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=OE5twgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com/books?id=OE5twgEACAAJ&dq=inauthor:%22Michael+Chatfield%22&hl=&cd=4&source=gbs_api",
+                "infoLink": "http://books.google.com/books?id=OE5twgEACAAJ&dq=inauthor:%22Michael+Chatfield%22&hl=&source=gbs_api",
+                "canonicalVolumeLink": "https://books.google.com/books/about/Beyond_All_Expectations.html?hl=&id=OE5twgEACAAJ"
+            },
+            "saleInfo": {
+                "country": "US",
+                "saleability": "NOT_FOR_SALE",
+                "isEbook": false
+            },
+            "accessInfo": {
+                "country": "US",
+                "viewability": "NO_PAGES",
+                "embeddable": false,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false
+                },
+                "pdf": {
+                    "isAvailable": false
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=OE5twgEACAAJ&hl=&source=gbs_api",
+                "accessViewStatus": "NONE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "The Event of Myths and Legends has started!"
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "Oo_hEAAAQBAJ",
+            "etag": "6pl5hxSqKV8",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/Oo_hEAAAQBAJ",
+            "volumeInfo": {
+                "title": "Skeleton with a Heart",
+                "authors": [
+                    "Michael Chatfield"
+                ],
+                "publisher": "MICHAEL CHATFIELD PUBLICATIONS INC.",
+                "publishedDate": "1900",
+                "description": "In a world where magic and mayhem reign, meet Anthony, a once-proud Guardian of Light, turned... Death Knight? Yep, you heard that right. Anthony was once the embodiment of valor, the defender of all things good, and the go-to guy for vanquishing evil with a smile. But one fateful day, he woke up to a rude surprise – he's no longer the hero he used to be. In fact, he's got a bad case of amnesia and a snazzy new title: Death Knight. Not quite the retirement plan he had in mind! Join Anthony on an uproarious quest to regain his memory, inspire others to be heroes in a world gone bonkers. Sometimes we fumble and sometimes we fall, as long as we keep trying, that’s what can change it all. Will Anthony rise from his undead funk and become the hero he was meant to be, or is he doomed to be the punchline of an otherworldly joke? Find out in this side-splitting, spellbinding comedy fantasy where death isn't the end, but rather, the beginning of a hilariously twisted adventure.",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9781989377703"
+                    },
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "198937770X"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": true
+                },
+                "pageCount": 116,
+                "printType": "BOOK",
+                "categories": [
+                    "Fiction"
+                ],
+                "maturityRating": "MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "0.1.1.0.preview.1",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=Oo_hEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=Oo_hEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com/books?id=Oo_hEAAAQBAJ&printsec=frontcover&dq=inauthor:%22Michael+Chatfield%22&hl=&cd=5&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=Oo_hEAAAQBAJ&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=Oo_hEAAAQBAJ"
+            },
+            "saleInfo": {
+                "country": "US",
+                "saleability": "FOR_SALE",
+                "isEbook": true,
+                "listPrice": {
+                    "amount": 3.99,
+                    "currencyCode": "USD"
+                },
+                "retailPrice": {
+                    "amount": 3.99,
+                    "currencyCode": "USD"
+                },
+                "buyLink": "https://play.google.com/store/books/details?id=Oo_hEAAAQBAJ&rdid=book-Oo_hEAAAQBAJ&rdot=1&source=gbs_api",
+                "offers": [
+                    {
+                        "finskyOfferType": 1,
+                        "listPrice": {
+                            "amountInMicros": 3990000,
+                            "currencyCode": "USD"
+                        },
+                        "retailPrice": {
+                            "amountInMicros": 3990000,
+                            "currencyCode": "USD"
+                        },
+                        "giftable": true
+                    }
+                ]
+            },
+            "accessInfo": {
+                "country": "US",
+                "viewability": "PARTIAL",
+                "embeddable": true,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false
+                },
+                "pdf": {
+                    "isAvailable": true,
+                    "acsTokenLink": "http://books.google.com/books/download/Skeleton_with_a_Heart-sample-pdf.acsm?id=Oo_hEAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=Oo_hEAAAQBAJ&hl=&source=gbs_api",
+                "accessViewStatus": "SAMPLE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "In a world where magic and mayhem reign, meet Anthony, a once-proud Guardian of Light, turned."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "n3f9EAAAQBAJ",
+            "etag": "9RJux4QGNq0",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/n3f9EAAAQBAJ",
+            "volumeInfo": {
+                "title": "Coming Home",
+                "authors": [
+                    "Michael Chatfield"
+                ],
+                "publisher": "MICHAEL CHATFIELD PUBLICATIONS INC.",
+                "publishedDate": "2022-01-31",
+                "description": "Salchar and the Free Fleet are tired, low on resources, man power and ships that should actually be flying. Yet they have a mandate, free those that are being oppressed. Sarenmenti, Humans, Kuruvians, Chaleelians and the genetic creations of the AI called the Planner, Avarians, band together under the banner of the Free Fleet to go to the fleet’s birthplace-Earth. Life is nothing but a battle for a survival, and Salchar is going to have to use all of his skills to keep his people alive. The galaxy has a few surprises to throw his way, as well as some polticians up to their own games. Salchar is going to wish for battles instead of dealing with the twisted minds of politicians and people that think they are still the centre of the universe.",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9781989377314"
+                    },
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "1989377319"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": true
+                },
+                "pageCount": 319,
+                "printType": "BOOK",
+                "categories": [
+                    "Fiction"
+                ],
+                "maturityRating": "MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "0.1.1.0.preview.1",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=n3f9EAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=n3f9EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com/books?id=n3f9EAAAQBAJ&printsec=frontcover&dq=inauthor:%22Michael+Chatfield%22&hl=&cd=6&source=gbs_api",
+                "infoLink": "http://books.google.com/books?id=n3f9EAAAQBAJ&dq=inauthor:%22Michael+Chatfield%22&hl=&source=gbs_api",
+                "canonicalVolumeLink": "https://books.google.com/books/about/Coming_Home.html?hl=&id=n3f9EAAAQBAJ"
+            },
+            "saleInfo": {
+                "country": "US",
+                "saleability": "NOT_FOR_SALE",
+                "isEbook": false
+            },
+            "accessInfo": {
+                "country": "US",
+                "viewability": "PARTIAL",
+                "embeddable": true,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false
+                },
+                "pdf": {
+                    "isAvailable": true,
+                    "acsTokenLink": "http://books.google.com/books/download/Coming_Home-sample-pdf.acsm?id=n3f9EAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=n3f9EAAAQBAJ&hl=&source=gbs_api",
+                "accessViewStatus": "SAMPLE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "Salchar and the Free Fleet are tired, low on resources, man power and ships that should actually be flying."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "4Xj9EAAAQBAJ",
+            "etag": "BDdXj4bl7AE",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/4Xj9EAAAQBAJ",
+            "volumeInfo": {
+                "title": "War's Reward",
+                "authors": [
+                    "Michael Chatfield"
+                ],
+                "publisher": "MICHAEL CHATFIELD PUBLICATIONS INC.",
+                "publishedDate": "2022-02-14",
+                "description": "The Second Kalu War rages across known space. The newly formed Union undergoes it’s first baptism, the baptism of war. The Free Fleet is barely holding the line against the Kalu. Salchar and the other commanders of the Free Fleet have one goal. Survive. As war rages politics and power brokering are at work behind the scenes in the Union. Even if the Free Fleet survives the war, will they survive it's aftermath?",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9781989377277"
+                    },
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "1989377270"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": true
+                },
+                "pageCount": 286,
+                "printType": "BOOK",
+                "categories": [
+                    "Fiction"
+                ],
+                "maturityRating": "MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "0.1.2.0.preview.1",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=4Xj9EAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=4Xj9EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com/books?id=4Xj9EAAAQBAJ&printsec=frontcover&dq=inauthor:%22Michael+Chatfield%22&hl=&cd=7&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=4Xj9EAAAQBAJ&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=4Xj9EAAAQBAJ"
+            },
+            "saleInfo": {
+                "country": "US",
+                "saleability": "FOR_SALE",
+                "isEbook": true,
+                "listPrice": {
+                    "amount": 3.49,
+                    "currencyCode": "USD"
+                },
+                "retailPrice": {
+                    "amount": 3.49,
+                    "currencyCode": "USD"
+                },
+                "buyLink": "https://play.google.com/store/books/details?id=4Xj9EAAAQBAJ&rdid=book-4Xj9EAAAQBAJ&rdot=1&source=gbs_api",
+                "offers": [
+                    {
+                        "finskyOfferType": 1,
+                        "listPrice": {
+                            "amountInMicros": 3490000,
+                            "currencyCode": "USD"
+                        },
+                        "retailPrice": {
+                            "amountInMicros": 3490000,
+                            "currencyCode": "USD"
+                        },
+                        "giftable": true
+                    }
+                ]
+            },
+            "accessInfo": {
+                "country": "US",
+                "viewability": "PARTIAL",
+                "embeddable": true,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false
+                },
+                "pdf": {
+                    "isAvailable": true,
+                    "acsTokenLink": "http://books.google.com/books/download/War_s_Reward-sample-pdf.acsm?id=4Xj9EAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=4Xj9EAAAQBAJ&hl=&source=gbs_api",
+                "accessViewStatus": "SAMPLE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "The Second Kalu War rages across known space."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "1Xj9EAAAQBAJ",
+            "etag": "E+r6YT0hFqc",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/1Xj9EAAAQBAJ",
+            "volumeInfo": {
+                "title": "No Rest For The Wicked",
+                "authors": [
+                    "Michael Chatfield"
+                ],
+                "publisher": "MICHAEL CHATFIELD PUBLICATIONS INC.",
+                "publishedDate": "2022-01-31",
+                "description": "Earth is safe for now, with it came some much needed surprises. Though if Salchar was expecting a break he’s in for a rude awakening, well he’s already done that once…. but anyway. Lady Fairgate has sensed something has gone wrong at Parnmal. Thinking that Jorsht is now trying to carve out his own little kingdom, she sends Captain Kelu, one of her favourite enforcers with the largest Syndicate Fleet assembled since the Syndicate and the Union went head to head. Though Kelu is in for some nasty surprises when he reaches Parnmal, Jorsht isn’t home and this little bit of space is defended by the Free Fleet. Salchar and his people are going to have to pull some major tricks out of their hats to survive the defense of Parnmal. It’s time to see if the Free Fleet has what it takes to survive. No matter what the outcome, their going to make sure no one is going to forget their names.",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9781989377307"
+                    },
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "1989377300"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": true
+                },
+                "pageCount": 306,
+                "printType": "BOOK",
+                "categories": [
+                    "Fiction"
+                ],
+                "maturityRating": "MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "0.1.1.0.preview.1",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=1Xj9EAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=1Xj9EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com/books?id=1Xj9EAAAQBAJ&printsec=frontcover&dq=inauthor:%22Michael+Chatfield%22&hl=&cd=8&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=1Xj9EAAAQBAJ&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=1Xj9EAAAQBAJ"
+            },
+            "saleInfo": {
+                "country": "US",
+                "saleability": "FOR_SALE",
+                "isEbook": true,
+                "listPrice": {
+                    "amount": 3.49,
+                    "currencyCode": "USD"
+                },
+                "retailPrice": {
+                    "amount": 3.49,
+                    "currencyCode": "USD"
+                },
+                "buyLink": "https://play.google.com/store/books/details?id=1Xj9EAAAQBAJ&rdid=book-1Xj9EAAAQBAJ&rdot=1&source=gbs_api",
+                "offers": [
+                    {
+                        "finskyOfferType": 1,
+                        "listPrice": {
+                            "amountInMicros": 3490000,
+                            "currencyCode": "USD"
+                        },
+                        "retailPrice": {
+                            "amountInMicros": 3490000,
+                            "currencyCode": "USD"
+                        },
+                        "giftable": true
+                    }
+                ]
+            },
+            "accessInfo": {
+                "country": "US",
+                "viewability": "PARTIAL",
+                "embeddable": true,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false
+                },
+                "pdf": {
+                    "isAvailable": true,
+                    "acsTokenLink": "http://books.google.com/books/download/No_Rest_For_The_Wicked-sample-pdf.acsm?id=1Xj9EAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=1Xj9EAAAQBAJ&hl=&source=gbs_api",
+                "accessViewStatus": "SAMPLE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "Earth is safe for now, with it came some much needed surprises."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "X83hEAAAQBAJ",
+            "etag": "QFCCsPNdAH8",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/X83hEAAAQBAJ",
+            "volumeInfo": {
+                "title": "A Lich's Love",
+                "authors": [
+                    "Michael Chatfield"
+                ],
+                "publisher": "MICHAEL CHATFIELD PUBLICATIONS INC.",
+                "publishedDate": "1900",
+                "description": "In a world shattered by conflict and haunted by the specter of an ancient foe, Anthony and his valiant companions face their ultimate reckoning. Their journey has been filled with laughter, love and loss. With each step they have strived to unite a fractured land. Their old enemy, once concealed in the shadows, is now unmasked and poised to unleash unparalleled devastation upon Dena. Claire, the former High Judge turned disgraced Necromancer, made the ultimate sacrifice, delving into forbidden magic to resurrect her fellow Guardians and her beloved. Together, they stand as the last defenders of a lost generation. The people of Dena, galvanized by the Guardians' unwavering resolve, rally beside them. Bound by a common purpose, they join forces to face the resurfaced threat of the Drafeng with courage and determination. Anthony, armed with the full weight of his memories and the support of his fellow Guardians and familiars, steps into the forefront of the battle. His purpose is clear: to fight today so that tomorrow, the people of Dena can finally smile without the looming specter of war. In this gripping conclusion to the epic saga, bonds are tested, sacrifices made, and heroes emerge from the crucible of conflict. As they stand on the brink of a final, cataclysmic confrontation, they must summon every ounce of strength, wisdom, and unity they possess to secure Dena's future. Lich’s Love is a heart-wrenching and triumphant finale that will leave you breathless, your emotions soaring, as the fate of Dena hangs in the balance for one last, epic battle. What would you do to save the ones you love?",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9781989377765"
+                    },
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "1989377769"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": true
+                },
+                "pageCount": 209,
+                "printType": "BOOK",
+                "categories": [
+                    "Fiction"
+                ],
+                "maturityRating": "MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "0.1.2.0.preview.1",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=X83hEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=X83hEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com/books?id=X83hEAAAQBAJ&printsec=frontcover&dq=inauthor:%22Michael+Chatfield%22&hl=&cd=9&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=X83hEAAAQBAJ&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=X83hEAAAQBAJ"
+            },
+            "saleInfo": {
+                "country": "US",
+                "saleability": "FOR_SALE",
+                "isEbook": true,
+                "listPrice": {
+                    "amount": 4.99,
+                    "currencyCode": "USD"
+                },
+                "retailPrice": {
+                    "amount": 4.99,
+                    "currencyCode": "USD"
+                },
+                "buyLink": "https://play.google.com/store/books/details?id=X83hEAAAQBAJ&rdid=book-X83hEAAAQBAJ&rdot=1&source=gbs_api",
+                "offers": [
+                    {
+                        "finskyOfferType": 1,
+                        "listPrice": {
+                            "amountInMicros": 4990000,
+                            "currencyCode": "USD"
+                        },
+                        "retailPrice": {
+                            "amountInMicros": 4990000,
+                            "currencyCode": "USD"
+                        },
+                        "giftable": true
+                    }
+                ]
+            },
+            "accessInfo": {
+                "country": "US",
+                "viewability": "PARTIAL",
+                "embeddable": true,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false
+                },
+                "pdf": {
+                    "isAvailable": true,
+                    "acsTokenLink": "http://books.google.com/books/download/A_Lich_s_Love-sample-pdf.acsm?id=X83hEAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=X83hEAAAQBAJ&hl=&source=gbs_api",
+                "accessViewStatus": "SAMPLE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "In a world shattered by conflict and haunted by the specter of an ancient foe, Anthony and his valiant companions face their ultimate reckoning."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "f6oSEQAAQBAJ",
+            "etag": "BvNb6di2Ynk",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/f6oSEQAAQBAJ",
+            "volumeInfo": {
+                "title": "Sliding Reality",
+                "authors": [
+                    "Michael Chatfield"
+                ],
+                "publisher": "MICHAEL CHATFIELD PUBLICATIONS INC.",
+                "publishedDate": "2024-07-09",
+                "description": "The scale of Eve Online meets the game-like Ender’s Game, mixed with the universe and reality of the Expanse, spiced with the multi-role OLD Battlefield (and fully destructible environments). Sphere World heralded a greater change than the balance of power between the guilds and free player clans. As Luke struggles with his new reality, his changing future. Brad and Stuart must struggle with the new authority and power they wield. They’re not just dealing with corporations and hostile takeovers, the Factions of humanity each want a piece of Sphere World and they’ll do whatever they have to, to do so. Sally, cares nothing for their problems, only caring about her sole mission. Destroy the Adraxi where they are found. The first scout has been spotted, and she knows that means one thing. Their fleets are coming. Build the warships, load the dropships and power up the tanks. The net is going to war.",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9781990785122"
+                    },
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "1990785123"
+                    }
+                ],
+                "readingModes": {
+                    "text": true,
+                    "image": true
+                },
+                "pageCount": 835,
+                "printType": "BOOK",
+                "categories": [
+                    "Fiction"
+                ],
+                "maturityRating": "MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "1.1.1.0.preview.3",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=f6oSEQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=f6oSEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com/books?id=f6oSEQAAQBAJ&printsec=frontcover&dq=inauthor:%22Michael+Chatfield%22&hl=&cd=10&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=f6oSEQAAQBAJ&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=f6oSEQAAQBAJ"
+            },
+            "saleInfo": {
+                "country": "US",
+                "saleability": "FOR_SALE",
+                "isEbook": true,
+                "listPrice": {
+                    "amount": 7.49,
+                    "currencyCode": "USD"
+                },
+                "retailPrice": {
+                    "amount": 7.49,
+                    "currencyCode": "USD"
+                },
+                "buyLink": "https://play.google.com/store/books/details?id=f6oSEQAAQBAJ&rdid=book-f6oSEQAAQBAJ&rdot=1&source=gbs_api",
+                "offers": [
+                    {
+                        "finskyOfferType": 1,
+                        "listPrice": {
+                            "amountInMicros": 7490000,
+                            "currencyCode": "USD"
+                        },
+                        "retailPrice": {
+                            "amountInMicros": 7490000,
+                            "currencyCode": "USD"
+                        },
+                        "giftable": true
+                    }
+                ]
+            },
+            "accessInfo": {
+                "country": "US",
+                "viewability": "PARTIAL",
+                "embeddable": true,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": true,
+                    "acsTokenLink": "http://books.google.com/books/download/Sliding_Reality-sample-epub.acsm?id=f6oSEQAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+                },
+                "pdf": {
+                    "isAvailable": true,
+                    "acsTokenLink": "http://books.google.com/books/download/Sliding_Reality-sample-pdf.acsm?id=f6oSEQAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=f6oSEQAAQBAJ&hl=&source=gbs_api",
+                "accessViewStatus": "SAMPLE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "The scale of Eve Online meets the game-like Ender’s Game, mixed with the universe and reality of the Expanse, spiced with the multi-role OLD Battlefield (and fully destructible environments)."
+            }
+        }
+    ]
+}
