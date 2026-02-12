@@ -49,7 +49,16 @@ func GetBookByISBN(w http.ResponseWriter, r *http.Request) {
 	log.Println("Looking for book, ", user.Name)
 
 	var isbn = r.URL.Query().Get("isbn")
+	if isbn == "" {
+		http.Error(w, "ISBN number is required", http.StatusNotFound)
+		return
+ 	}
+
 	response = GetBook_ISBN(isbn)
+	if response = "" {
+		http.Error(w, "Book with ISBN: "+isbn+" not found", http.StatusNotFound)
+		return
+ }	
 
 	w.Header().Set("Content-Type", "application/json")
 
