@@ -89,8 +89,11 @@ type Books struct {
 	Books []Book `json:"items"`
 }
 
-// func GetBookByISBN(ISBN string) {
-// }
+func GetBook_ISBN(ISBN string) {
+		var books = database()
+
+		return getBook_ISBN(books)
+}
 
 // func GetBooksByTitle(Title string) {
 // }
@@ -121,19 +124,26 @@ func database() Books {
 	json.Unmarshal(byteValue, &books)
 
 	return books
-	// if searchType == "ISBN" {
-	// 	searchByISBN(books, value)
-	// } else if searchType == "Title" {
-	// 	searchByTitle(books, value)
-	// } else if searchType == "Author" {
-	// 	return searchByAuthor(books, value)
-	// }
-	// return empty
 }
 
-// func searchByISBN(books Books, isbn string) {
-// 	fmt.Printf("Searching for ISBN: %s\n", isbn)
-// }
+func searchByISBN(books Books, isbn string) Book {
+    fmt.Printf("Searching for ISBN: %s\n", isbn)
+
+	var empty = ""
+ 	var isbnBook Book
+	for i := 0; i < len(books.Books); i++ {
+		bookItem := BookAuthors{
+			Authors: books.Books[i].VolumeInfo.Authors,
+			ISBN:    books.Books[i].VolumeInfo.IndustryIdentifiers[0].Identifier,
+		}
+ 
+		for j := 0; j < len(bookItem.ISBN); j++ {
+			if bookItem.ISBN[j] == isbn {
+						return books.Books[i]
+			}
+		}
+	return empty
+}
 
 // func searchByTitle(books Books, title string) {
 // 	fmt.Printf("Searching for title: %s\n", title)
