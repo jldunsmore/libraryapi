@@ -1,0 +1,343 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "items": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "kind": {
+              "type": "string"
+            },
+            "id": {
+              "type": "string"
+            },
+            "etag": {
+              "type": "string"
+            },
+            "selfLink": {
+              "type": "string"
+            },
+            "volumeInfo": {
+              "type": "object",
+              "properties": {
+                "title": {
+                  "type": "string"
+                },
+                "authors": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "publishedDate": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "industryIdentifiers": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "type": {
+                        "type": "string"
+                      },
+                      "identifier": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "type",
+                      "identifier"
+                    ]
+                  }
+                },
+                "readingModes": {
+                  "type": "object",
+                  "properties": {
+                    "text": {
+                      "type": "boolean"
+                    },
+                    "image": {
+                      "type": "boolean"
+                    }
+                  },
+                  "required": [
+                    "text",
+                    "image"
+                  ]
+                },
+                "pageCount": {
+                  "type": "integer"
+                },
+                "printType": {
+                  "type": "string"
+                },
+                "maturityRating": {
+                  "type": "string"
+                },
+                "allowAnonLogging": {
+                  "type": "boolean"
+                },
+                "contentVersion": {
+                  "type": "string"
+                },
+                "panelizationSummary": {
+                  "type": "object",
+                  "properties": {
+                    "containsEpubBubbles": {
+                      "type": "boolean"
+                    },
+                    "containsImageBubbles": {
+                      "type": "boolean"
+                    }
+                  },
+                  "required": [
+                    "containsEpubBubbles",
+                    "containsImageBubbles"
+                  ]
+                },
+                "imageLinks": {
+                  "type": "object",
+                  "properties": {
+                    "smallThumbnail": {
+                      "type": "string"
+                    },
+                    "thumbnail": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "smallThumbnail",
+                    "thumbnail"
+                  ]
+                },
+                "language": {
+                  "type": "string"
+                },
+                "previewLink": {
+                  "type": "string"
+                },
+                "infoLink": {
+                  "type": "string"
+                },
+                "canonicalVolumeLink": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "title",
+                "authors",
+                "publishedDate",
+                "description",
+                "industryIdentifiers",
+                "readingModes",
+                "pageCount",
+                "printType",
+                "maturityRating",
+                "allowAnonLogging",
+                "contentVersion",
+                "panelizationSummary",
+                "imageLinks",
+                "language",
+                "previewLink",
+                "infoLink",
+                "canonicalVolumeLink"
+              ]
+            },
+            "saleInfo": {
+              "type": "object",
+              "properties": {
+                "country": {
+                  "type": "string"
+                },
+                "saleability": {
+                  "type": "string"
+                },
+                "isEbook": {
+                  "type": "boolean"
+                }
+              },
+              "required": [
+                "country",
+                "saleability",
+                "isEbook"
+              ]
+            },
+            "accessInfo": {
+              "type": "object",
+              "properties": {
+                "country": {
+                  "type": "string"
+                },
+                "viewability": {
+                  "type": "string"
+                },
+                "embeddable": {
+                  "type": "boolean"
+                },
+                "publicDomain": {
+                  "type": "boolean"
+                },
+                "textToSpeechPermission": {
+                  "type": "string"
+                },
+                "epub": {
+                  "type": "object",
+                  "properties": {
+                    "isAvailable": {
+                      "type": "boolean"
+                    }
+                  },
+                  "required": [
+                    "isAvailable"
+                  ]
+                },
+                "pdf": {
+                  "type": "object",
+                  "properties": {
+                    "isAvailable": {
+                      "type": "boolean"
+                    }
+                  },
+                  "required": [
+                    "isAvailable"
+                  ]
+                },
+                "webReaderLink": {
+                  "type": "string"
+                },
+                "accessViewStatus": {
+                  "type": "string"
+                },
+                "quoteSharingAllowed": {
+                  "type": "boolean"
+                }
+              },
+              "required": [
+                "country",
+                "viewability",
+                "embeddable",
+                "publicDomain",
+                "textToSpeechPermission",
+                "epub",
+                "pdf",
+                "webReaderLink",
+                "accessViewStatus",
+                "quoteSharingAllowed"
+              ]
+            },
+            "searchInfo": {
+              "type": "object",
+              "properties": {
+                "textSnippet": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "textSnippet"
+              ]
+            }
+          },
+          "required": [
+            "kind",
+            "id",
+            "etag",
+            "selfLink",
+            "volumeInfo",
+            "saleInfo",
+            "accessInfo",
+            "searchInfo"
+          ]
+        }
+      }
+    },
+    "required": [
+      "items"
+    ]
+  },
+  "title": "Generated Schema",
+  "description": "JSON Schema generated from provided JSON data",
+  "examples": [
+    [
+      {
+        "items": [
+          {
+            "kind": "books#volume",
+            "id": "tZVqzQEACAAJ",
+            "etag": "bd9McO/WSuY",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/tZVqzQEACAAJ",
+            "volumeInfo": {
+              "title": "Time of Change",
+              "authors": [
+                "Michael Chatfield"
+              ],
+              "publishedDate": "2019-02-14",
+              "description": "As the Stone Raiders come into a time of peace, they set upon building up their guild hall and getting back to raiding.Without the worries of immediate battles and constant quests, Dave and Party Zero are free to pursue their passions. New discoveries will be made and advances taken. They've got big plans and ideas for the future what they start now will form and shape that future.In this time of change, possibilities will rise and opportunities will be grasped. It's time to build for the future.",
+              "industryIdentifiers": [
+                {
+                  "type": "ISBN_10",
+                  "identifier": "1999541197"
+                },
+                {
+                  "type": "ISBN_13",
+                  "identifier": "9781999541194"
+                }
+              ],
+              "readingModes": {
+                "text": false,
+                "image": false
+              },
+              "pageCount": 600,
+              "printType": "BOOK",
+              "maturityRating": "NOT_MATURE",
+              "allowAnonLogging": false,
+              "contentVersion": "preview-1.0.0",
+              "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+              },
+              "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=tZVqzQEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=tZVqzQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+              },
+              "language": "en",
+              "previewLink": "http://books.google.com/books?id=tZVqzQEACAAJ&dq=inauthor:%22Michael+Chatfield%22&hl=&cd=1&source=gbs_api",
+              "infoLink": "http://books.google.com/books?id=tZVqzQEACAAJ&dq=inauthor:%22Michael+Chatfield%22&hl=&source=gbs_api",
+              "canonicalVolumeLink": "https://books.google.com/books/about/Time_of_Change.html?hl=&id=tZVqzQEACAAJ"
+            },
+            "saleInfo": {
+              "country": "US",
+              "saleability": "NOT_FOR_SALE",
+              "isEbook": false
+            },
+            "accessInfo": {
+              "country": "US",
+              "viewability": "NO_PAGES",
+              "embeddable": false,
+              "publicDomain": false,
+              "textToSpeechPermission": "ALLOWED",
+              "epub": {
+                "isAvailable": false
+              },
+              "pdf": {
+                "isAvailable": false
+              },
+              "webReaderLink": "http://play.google.com/books/reader?id=tZVqzQEACAAJ&hl=&source=gbs_api",
+              "accessViewStatus": "NONE",
+              "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+              "textSnippet": "New discoveries will be made and advances taken. They&#39;ve got big plans and ideas for the future what they start now will form and shape that future.In this time of change, possibilities will rise and opportunities will be grasped."
+            }
+          }
+        ]
+      }
+    ]
+  ]
+}
