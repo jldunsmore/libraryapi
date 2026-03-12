@@ -45,6 +45,7 @@ func SearchDatabase(w http.ResponseWriter, r *http.Request) {
 }
 
 func GetBookByISBN(w http.ResponseWriter, r *http.Request) {
+	var response Book
 	user := r.Context().Value("user").(User)
 	log.Println("Looking for book, ", user.Name)
 
@@ -52,13 +53,13 @@ func GetBookByISBN(w http.ResponseWriter, r *http.Request) {
 	if isbn == "" {
 		http.Error(w, "ISBN number is required", http.StatusNotFound)
 		return
- 	}
+	}
 
-	response = GetBook_ISBN(isbn)
-	if response = "" {
+	response, err := searchByISBN(isbn)
+	if err != nil {
 		http.Error(w, "Book with ISBN: "+isbn+" not found", http.StatusNotFound)
 		return
- }	
+	}
 
 	w.Header().Set("Content-Type", "application/json")
 
@@ -77,7 +78,7 @@ func GetListOfBookByAuthor(w http.ResponseWriter, r *http.Request) {
 	user := r.Context().Value("user").(User)
 	log.Println("Making list, ", user.Name)
 
-	var response = GetListByAuthor()
+	var response = getListByAuthor()
 
 	w.Header().Set("Content-Type", "application/json")
 

@@ -2,6 +2,7 @@ package main
 
 import (
 	"encoding/json"
+	"errors"
 	"fmt"
 	"io"
 	"log"
@@ -89,23 +90,11 @@ type Books struct {
 	Books []Book `json:"items"`
 }
 
-func GetBook_ISBN(ISBN string) {
-		var books = database()
-
-		return getBook_ISBN(books)
-}
-
 // func GetBooksByTitle(Title string) {
 // }
 
 // func GetBooksByAuthor(author string) {
 // }
-
-func GetListByAuthor() []Author {
-	var books = database()
-
-	return getListByAuthor(books)
-}
 
 func database() Books {
 	bookJsonFile, err := os.Open("books.json")
@@ -126,30 +115,32 @@ func database() Books {
 	return books
 }
 
-func searchByISBN(books Books, isbn string) Book {
-    fmt.Printf("Searching for ISBN: %s\n", isbn)
+func searchByISBN(isbn string) (Book, error) {
+	var books = database()
+	fmt.Printf("Searching for ISBN: %s\n", isbn)
 
-	var empty = ""
- 	var isbnBook Book
+	var response Book
 	for i := 0; i < len(books.Books); i++ {
 		bookItem := BookAuthors{
 			Authors: books.Books[i].VolumeInfo.Authors,
 			ISBN:    books.Books[i].VolumeInfo.IndustryIdentifiers[0].Identifier,
 		}
- 
+
 		for j := 0; j < len(bookItem.ISBN); j++ {
-			if bookItem.ISBN[j] == isbn {
-						return books.Books[i]
+			if string(bookItem.ISBN[j]) == isbn {
+				return books.Books[i], nil
 			}
 		}
-	return empty
+	}
+	return response, errors.New("404")
 }
 
 // func searchByTitle(books Books, title string) {
 // 	fmt.Printf("Searching for title: %s\n", title)
 // }
 
-func getListByAuthor(books Books) []Author {
+func getListByAuthor() []Author {
+	var books = database()
 
 	var authors []Author
 	for i := 0; i < len(books.Books); i++ {
