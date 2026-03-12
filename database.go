@@ -7,6 +7,7 @@ import (
 	"io"
 	"log"
 	"os"
+	"strings"
 )
 
 type Title struct {
@@ -90,6 +91,19 @@ type Books struct {
 	Books []Book `json:"items"`
 }
 
+type BookCard struct {
+	Title string "json:\"type\""
+	ISBN  []struct {
+		Type       string "json:\"type\""
+		Identifier string "json:\"identifier\""
+	} `json:"industryIdentifiers"`
+}
+
+type AuthorBookList struct {
+	Name     string
+	BookList []BookCard
+}
+
 // func GetBooksByTitle(Title string) {
 // }
 
@@ -122,8 +136,8 @@ func searchByISBN(isbn string) (Book, error) {
 	var response Book
 	for i := 0; i < len(books.Books); i++ {
 		bookItem := BookAuthors{
-			Authors: books.Books[i].VolumeInfo.Authors,
-			ISBN:    books.Books[i].VolumeInfo.IndustryIdentifiers[0].Identifier,
+			//Authors: books.Books[i].VolumeInfo.Authors,
+			ISBN: books.Books[i].VolumeInfo.IndustryIdentifiers[0].Identifier,
 		}
 
 		for j := 0; j < len(bookItem.ISBN); j++ {
@@ -138,6 +152,32 @@ func searchByISBN(isbn string) (Book, error) {
 // func searchByTitle(books Books, title string) {
 // 	fmt.Printf("Searching for title: %s\n", title)
 // }
+
+func searchByAuthor(author string) (AuthorBookList, error) {
+	var books = database()
+	fmt.Printf("Searching for Author: %s\n", author)
+
+	var response AuthorBookList
+	for i := 0; i < len(books.Books); i++ {
+		authors := books.Books[i].VolumeInfo.Authors
+
+		for j := 0; j < len(authors); j++ {
+			if strings.EqualFold(string(authors[j]), author) {
+				book := BookCard{
+					Title: books.Books[i].VolumeInfo.Title,
+					ISBN:  books.Books[i].VolumeInfo.IndustryIdentifiers,
+				}
+				response.BookList = append(response.BookList, book)
+			}
+		}
+	}
+	if len(response.BookList) > 0 {
+		response.Name = author
+		return response, nil
+	} else {
+		return response, errors.New("404")
+	}
+}
 
 func getListByAuthor() []Author {
 	var books = database()

@@ -35,7 +35,7 @@ func SearchDatabase(w http.ResponseWriter, r *http.Request) {
 		case "BooksByTitle":
 			//GetBooksByTitle(w, r)
 		case "BooksByAuthor":
-			//GetBookByAuthor(w, r)
+			GetBookByAuthor(w, r)
 		case "ListOfBooksByAuthor":
 			GetListOfBookByAuthor(w, r)
 		default:
@@ -45,7 +45,7 @@ func SearchDatabase(w http.ResponseWriter, r *http.Request) {
 }
 
 func GetBookByISBN(w http.ResponseWriter, r *http.Request) {
-	var response Book
+
 	user := r.Context().Value("user").(User)
 	log.Println("Looking for book, ", user.Name)
 
@@ -74,28 +74,38 @@ func GetBookByTitle(w http.ResponseWriter, r *http.Request) {
 	//database("Title", title)
 }
 
-func GetListOfBookByAuthor(w http.ResponseWriter, r *http.Request) {
-	user := r.Context().Value("user").(User)
-	log.Println("Making list, ", user.Name)
+func GetBookByAuthor(w http.ResponseWriter, r *http.Request) {
 
-	var response = getListByAuthor()
+	user := r.Context().Value("user").(User)
+	log.Println("Looking for book, ", user.Name)
+
+	var author = r.URL.Query().Get("author")
+	if author == "" {
+		http.Error(w, "Author is required", http.StatusNotFound)
+		return
+	}
+
+	response, err := searchByAuthor(author)
+	if err != nil {
+		http.Error(w, "Book by "+author+" not found", http.StatusNotFound)
+		return
+	}
 
 	w.Header().Set("Content-Type", "application/json")
 
 	json.NewEncoder(w).Encode(response)
 }
 
-// func GetBook(w http.ResponseWriter, r *http.Request) {
-// 	user := r.Context().Value("user").(User)
-// 	log.Println("Looking for book...", user.Name)
+func GetListOfBookByAuthor(w http.ResponseWriter, r *http.Request) {
+	user := r.Context().Value("user").(User)
+	log.Println("Making list, ", user.Name)
 
-// 	var isbn = r.URL.Query().Get("isbn")
-// 	database("ISBN", isbn)
+	response := getListByAuthor()
 
-// 	w.Header().Set("Content-Type", "application/json")
+	w.Header().Set("Content-Type", "application/json")
 
-// 	json.NewEncoder(w).Encode(response)
-// }
+	json.NewEncoder(w).Encode(response)
+}
 
 // func UpdateBook(w http.ResponseWriter, r *http.Request) {
 // 	user := r.Context().Value("user").(User)
