@@ -29,14 +29,14 @@ func SearchDatabase(w http.ResponseWriter, r *http.Request) {
 	var term string
 	var value string
 	for k, v := range searchTerm {
-		if strings.Contains("author, title, isbn, booksbyauthor", strings.ToLower(k)) {
+		if strings.Contains("author, title, isbn, booksbyauthor, listofbooksbyauthor", strings.ToLower(k)) {
 			term = strings.ToLower(k)
 			value = strings.ToLower(strings.Join(v, ""))
 		}
 	}
 	log.Println(term + " " + value)
 
-	if value == "" {
+	if value == "" && term != "listofbooksbyauthor" {
 		http.Error(w, "search query parameter is required", http.StatusBadRequest)
 		return
 	} else {
@@ -44,7 +44,7 @@ func SearchDatabase(w http.ResponseWriter, r *http.Request) {
 		switch term {
 		case "author", "title", "isbn":
 			GetBookByTerm(w, r, term, value)
-		case "ListOfBooksByAuthor":
+		case "listofbooksbyauthor":
 			GetListOfBookByAuthor(w, r)
 		default:
 			http.Error(w, "Invalid search type", http.StatusBadRequest)
@@ -87,7 +87,7 @@ func finish[T any](w http.ResponseWriter, response T, err error, term string) {
 
 func GetListOfBookByAuthor(w http.ResponseWriter, r *http.Request) {
 	user := r.Context().Value("user").(User)
-	log.Println("Making list, ", user.Name)
+	log.Println("Making list of books by author, " + user.Name)
 
 	response := getListByAuthor()
 
@@ -95,107 +95,3 @@ func GetListOfBookByAuthor(w http.ResponseWriter, r *http.Request) {
 
 	json.NewEncoder(w).Encode(response)
 }
-
-// func GetBookByISBN(w http.ResponseWriter, r *http.Request) {
-
-// 	user := r.Context().Value("user").(User)
-// 	log.Println("Looking for book, ", user.Name)
-
-// 	var isbn = r.URL.Query().Get("isbn")
-// 	if isbn == "" {
-// 		http.Error(w, "ISBN number is required", http.StatusNotFound)
-// 		return
-// 	}
-
-// 	response, err := searchByISBN(isbn)
-// 	if err != nil {
-// 		http.Error(w, "Book with ISBN: "+isbn+" not found", http.StatusNotFound)
-// 		return
-// 	}
-
-// 	w.Header().Set("Content-Type", "application/json")
-
-// 	json.NewEncoder(w).Encode(response)
-// }
-
-// func GetBooksByTitle(w http.ResponseWriter, r *http.Request) {
-// 	user := r.Context().Value("user").(User)
-// 	log.Println("Looking for book, ", user.Name)
-
-// 	var term = r.URL.Query().Get("title")
-// 	if term == "" {
-// 		http.Error(w, "Author is required", http.StatusNotFound)
-// 		return
-// 	}
-
-// 	response, err := searchByTitle(term)
-// 	if err != nil {
-// 		http.Error(w, "Book by "+term+" not found", http.StatusNotFound)
-// 		return
-// 	}
-
-// 	w.Header().Set("Content-Type", "application/json")
-
-// 	json.NewEncoder(w).Encode(response)
-// }
-
-// func GetBookByAuthor(w http.ResponseWriter, r *http.Request) {
-
-// 	user := r.Context().Value("user").(User)
-// 	log.Println("Looking for book, ", user.Name)
-
-// 	var author = r.URL.Query().Get("author")
-// 	if author == "" {
-// 		http.Error(w, "Author is required", http.StatusNotFound)
-// 		return
-// 	}
-
-// 	response, err := searchByAuthor(author)
-// 	if err != nil {
-// 		http.Error(w, "Book by "+author+" not found", http.StatusNotFound)
-// 		return
-// 	}
-
-// 	w.Header().Set("Content-Type", "application/json")
-
-// 	json.NewEncoder(w).Encode(response)
-// }
-
-// func UpdateBook(w http.ResponseWriter, r *http.Request) {
-// 	user := r.Context().Value("user").(User)
-// 	log.Println("Updating book...", user.Name)
-
-// 	var isbn = r.URL.Query().Get("isbn")
-// 	book, ok := bookDatabase[isbn]
-// 	if !ok || isbn == "" {
-// 		http.Error(w, "Book not found", http.StatusNotFound)
-// 		return
-// 	}
-
-// 	// Decode the JSON payload directly into struct
-// 	var payloadData Book
-// 	if err := json.NewDecoder(r.Body).Decode(&payloadData); err != nil {
-// 		http.Error(w, "Invalid JSON", http.StatusBadRequest)
-// 		return
-// 	}
-// 	defer r.Body.Close()
-
-// 	// Update Book
-// 	if payloadData.Title != "" {
-// 		book.Title = payloadData.Title
-// 	}
-// 	if payloadData.Desc != "" {
-// 		book.Desc = payloadData.Desc
-// 	}
-// 	if payloadData.Type != "" {
-// 		book.Type = payloadData.Type
-// 	}
-// 	if payloadData.ISBN != "" {
-// 		book.ISBN = isbn
-// 	}
-// 	bookDatabase[book.ISBN] = book
-
-// 	fmt.Printf("Book updated: %+v\n", book)
-
-// 	w.WriteHeader(http.StatusOK)
-// }

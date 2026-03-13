@@ -7,22 +7,18 @@ import (
 	"io"
 	"log"
 	"os"
+	"slices"
 	"strings"
 )
 
-type Title struct {
-	Title string `json:"title"`
-	Id    string `json:"id"`
-}
+// type Title struct {
+// 	Title string `json:"title"`
+// 	Id    string `json:"id"`
+// }
 
 type BookAuthors struct {
 	Authors []string `json:"authors"`
 	ISBN    string   `json:"isbn"`
-}
-
-type Author struct {
-	Name string
-	ISBN []string
 }
 
 type Book struct {
@@ -87,10 +83,6 @@ type Book struct {
 	} `json:"searchInfo"`
 }
 
-type Books struct {
-	Books []Book `json:"items"`
-}
-
 type BookCard struct {
 	Title string "json:\"type\""
 	ISBN  []struct {
@@ -100,8 +92,8 @@ type BookCard struct {
 }
 
 type BookList struct {
-	Name string
-	List []BookCard
+	Author string
+	List   []BookCard
 }
 
 func database() []Book {
@@ -116,11 +108,13 @@ func database() []Book {
 
 	byteValue, _ := io.ReadAll(bookJsonFile)
 
-	var books []Book
+	var books struct {
+		Books []Book `json:"items"`
+	}
 
 	json.Unmarshal(byteValue, &books)
 
-	return books
+	return books.Books
 }
 
 func searchByISBN(isbn string) (Book, error) {
@@ -128,15 +122,12 @@ func searchByISBN(isbn string) (Book, error) {
 	fmt.Printf("Searching for ISBN: %s\n", isbn)
 
 	var response Book
-	for i := 0; i < len(books.Books); i++ {
-		bookItem := BookAuthors{
-			//Authors: books.Books[i].VolumeInfo.Authors,
-			ISBN: books.Books[i].VolumeInfo.IndustryIdentifiers[0].Identifier,
-		}
+	for i := 0; i < len(books); i++ {
+		ISBN := books[i].VolumeInfo.IndustryIdentifiers
 
-		for j := 0; j < len(bookItem.ISBN); j++ {
-			if string(bookItem.ISBN[j]) == isbn {
-				return books.Books[i], nil
+		for j := 0; j < len(ISBN); j++ {
+			if string(ISBN[j].Identifier) == isbn {
+				return books[i], nil
 			}
 		}
 	}
@@ -185,40 +176,51 @@ func searchByAuthor(author string) (BookList, error) {
 		}
 	}
 	if len(response.List) > 0 {
-		response.Name = author
+		response.Author = author
 		return response, nil
 	} else {
 		return response, errors.New("404")
 	}
 }
 
-func getListByAuthor() []Author {
+func getListByAuthor() []BookList {
 	var books = database()
 
-	var authors []Author
+	var authors []BookList
+	var authorMap = make(map[string][]BookCard)
+
+	log.Println(len(books))
 	for i := 0; i < len(books); i++ {
-		authorList := BookAuthors{
-			Authors: books[i].VolumeInfo.Authors,
-			ISBN:    books[i].VolumeInfo.IndustryIdentifiers[0].Identifier,
-		}
-		for j := 0; j < len(authorList.Authors); j++ {
-			authorname := authorList.Authors[j]
-			authorExists := false
-			for k := 0; k < len(authors); k++ {
-				if authors[k].Name == authorname {
-					authors[k].ISBN = append(authors[k].ISBN, authorList.ISBN)
-					authorExists = true
-					break
+		bookAuthors := books[i].VolumeInfo.Authors
+		log.Println("searching for: ", bookAuthors)
+		// list of authors
+		for j := 0; j < len(bookAuthors); j++ {
+			authorname := bookAuthors[j]
+			//does author exsit in map
+			//if _, ok := authorMap[authorname]; !ok {
+			log.Println("searching for: ", authorname)
+			//find books with that author
+			for k := 0; k < len(books); k++ {
+				if slices.Contains(books[k].VolumeInfo.Authors, authorname) {
+					book := BookCard{
+						Title: books[k].VolumeInfo.Title,
+						ISBN:  books[k].VolumeInfo.IndustryIdentifiers,
+					}
+					// have we added books with this author
+					if _, ok := authorMap[authorname]; ok {
+						authorMap[authorname] = append(authorMap[authorname], book)
+					} else {
+						var list []BookCard
+						list = append(list, book)
+						authorMap[authorname] = list
+					}
 				}
 			}
-			if !authorExists {
-				newAuthor := Author{
-					Name: authorname,
-					ISBN: []string{authorList.ISBN},
-				}
-				authors = append(authors, newAuthor)
-			}
+			//}
 		}
+	}
+	for k, v := range authorMap {
+		authors = append(authors, BookList{Author: k, List: v})
 	}
 	//fmt.Printf("Authors: %+v\n", authors)
 	return authors
