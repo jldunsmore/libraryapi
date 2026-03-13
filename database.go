@@ -99,18 +99,12 @@ type BookCard struct {
 	} `json:"industryIdentifiers"`
 }
 
-type AuthorBookList struct {
-	Name     string
-	BookList []BookCard
+type BookList struct {
+	Name string
+	List []BookCard
 }
 
-// func GetBooksByTitle(Title string) {
-// }
-
-// func GetBooksByAuthor(author string) {
-// }
-
-func database() Books {
+func database() []Book {
 	bookJsonFile, err := os.Open("books.json")
 
 	if err != nil {
@@ -122,7 +116,7 @@ func database() Books {
 
 	byteValue, _ := io.ReadAll(bookJsonFile)
 
-	var books Books
+	var books []Book
 
 	json.Unmarshal(byteValue, &books)
 
@@ -149,29 +143,48 @@ func searchByISBN(isbn string) (Book, error) {
 	return response, errors.New("404")
 }
 
-// func searchByTitle(books Books, title string) {
-// 	fmt.Printf("Searching for title: %s\n", title)
-// }
+func searchByTitle(title string) ([]BookCard, error) {
+	var books = database()
+	fmt.Printf("Searching for Author: %s\n", title)
 
-func searchByAuthor(author string) (AuthorBookList, error) {
+	var response []BookCard
+	for i := 0; i < len(books); i++ {
+		bookTitle := books[i].VolumeInfo.Title
+
+		if strings.Contains(strings.ToLower(string(bookTitle)), strings.ToLower(title)) {
+			book := BookCard{
+				Title: books[i].VolumeInfo.Title,
+				ISBN:  books[i].VolumeInfo.IndustryIdentifiers,
+			}
+			response = append(response, book)
+		}
+	}
+	if len(response) > 0 {
+		return response, nil
+	} else {
+		return response, errors.New("404")
+	}
+}
+
+func searchByAuthor(author string) (BookList, error) {
 	var books = database()
 	fmt.Printf("Searching for Author: %s\n", author)
 
-	var response AuthorBookList
-	for i := 0; i < len(books.Books); i++ {
-		authors := books.Books[i].VolumeInfo.Authors
+	var response BookList
+	for i := 0; i < len(books); i++ {
+		authors := books[i].VolumeInfo.Authors
 
 		for j := 0; j < len(authors); j++ {
 			if strings.EqualFold(string(authors[j]), author) {
 				book := BookCard{
-					Title: books.Books[i].VolumeInfo.Title,
-					ISBN:  books.Books[i].VolumeInfo.IndustryIdentifiers,
+					Title: books[i].VolumeInfo.Title,
+					ISBN:  books[i].VolumeInfo.IndustryIdentifiers,
 				}
-				response.BookList = append(response.BookList, book)
+				response.List = append(response.List, book)
 			}
 		}
 	}
-	if len(response.BookList) > 0 {
+	if len(response.List) > 0 {
 		response.Name = author
 		return response, nil
 	} else {
@@ -183,10 +196,10 @@ func getListByAuthor() []Author {
 	var books = database()
 
 	var authors []Author
-	for i := 0; i < len(books.Books); i++ {
+	for i := 0; i < len(books); i++ {
 		authorList := BookAuthors{
-			Authors: books.Books[i].VolumeInfo.Authors,
-			ISBN:    books.Books[i].VolumeInfo.IndustryIdentifiers[0].Identifier,
+			Authors: books[i].VolumeInfo.Authors,
+			ISBN:    books[i].VolumeInfo.IndustryIdentifiers[0].Identifier,
 		}
 		for j := 0; j < len(authorList.Authors); j++ {
 			authorname := authorList.Authors[j]

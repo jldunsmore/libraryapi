@@ -892,6 +892,881 @@
             "searchInfo": {
                 "textSnippet": "The scale of Eve Online meets the game-like Ender’s Game, mixed with the universe and reality of the Expanse, spiced with the multi-role OLD Battlefield (and fully destructible environments)."
             }
-        }
+        },
+        {
+      "kind": "books#volume",
+      "id": "Wqb2DAAAQBAJ",
+      "etag": "HQifa93pmAU",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/Wqb2DAAAQBAJ",
+      "volumeInfo": {
+        "title": "Treachery's Tools",
+        "authors": [
+          "L. E. Modesitt, Jr."
+        ],
+        "publisher": "Macmillan",
+        "publishedDate": "2016-10-11",
+        "description": "Thirteen years after the events of Madness in Solidar, Alastar has settled into his role as the Maitre of the Collegium. Now married with a daughter, he would like nothing better than to focus his efforts on improving Imager Isle and making it more self-sufficient.However, the rise in fortune of the merchant classes in Solidar over the years does not sit well with the High Holders, who see the erosion of their long-enjoyed privileges. Bad harvests and worse weather spark acts of violence and murder. In the midst of the crisis, some High Holders call for repeals of the Codis Legis, taking authority away from the Rex.Once again, Alastar must maintain a careful political balance, but he cannot avoid the involvement of the Collegium when someone begins killing students. Trying to protect his imagers and hold Solidar together for the good of all, Alastar stumbles on to a plot by the High Holders involving illegal weapons, insurrection, and conspiracy.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9780765385406"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "0765385406"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 511,
+        "printType": "BOOK",
+        "categories": [
+          "Fiction"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.1.2.0.preview.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=Wqb2DAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=Wqb2DAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=Wqb2DAAAQBAJ&printsec=frontcover&dq=l+e+modistte&hl=&cd=1&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=Wqb2DAAAQBAJ&dq=l+e+modistte&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Treachery_s_Tools.html?hl=&id=Wqb2DAAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=Wqb2DAAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Thirteen years after the events of Madness in Solidar, Alastar has settled into his role as the Maitre of the Collegium."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "L28pEQAAQBAJ",
+      "etag": "TFT2PrEwkpw",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/L28pEQAAQBAJ",
+      "volumeInfo": {
+        "title": "Assassin's Price",
+        "authors": [
+          "L. E. Modesitt, Jr."
+        ],
+        "publisher": "Tor Books",
+        "publishedDate": "2018-05-29",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781250376374"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1250376378"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": false
+        },
+        "pageCount": 0,
+        "printType": "BOOK",
+        "categories": [
+          "Fiction"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=L28pEQAAQBAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=L28pEQAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=L28pEQAAQBAJ&dq=l+e+modistte&hl=&cd=2&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=L28pEQAAQBAJ&dq=l+e+modistte&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Assassin_s_Price.html?hl=&id=L28pEQAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=L28pEQAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "The eleventh novel in the New York Times bestselling fantasy series the Imager Portfolio and the third book in the new story arc that began with Madness in Solidar"
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "8B0AkawTNXUC",
+      "etag": "IqbnoOrkzwI",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/8B0AkawTNXUC",
+      "volumeInfo": {
+        "title": "Magi'i of Cyador",
+        "authors": [
+          "L. E. Modesitt, Jr."
+        ],
+        "publisher": "Macmillan",
+        "publishedDate": "2010-04-01",
+        "description": "L.E. Modesitt, Jr.'s Magi'i of Cyador continues his bestselling fantasy series the Saga of Recluce, which is one of the most popular in contemporary epic fantasy. A diligent student of remarkable talent, Lorn lacks only the single most coveted attribute required of a Magus of Cyador: unquestionable loyalty. Too independent for his own good, Lorn is forced to become a lancer officer, and is sent to the frontier to fight off the all-too-frequent barbarian raids—a career that comes with a 50% mortality rate. His enemies don't expect him to survive . . . “An intriguing fantasy in a fascinating world.”—Robert Jordan, New York Times bestselling author of The Wheel of Time® series Saga of Recluce #1 The Magic of Recluce / #2 The Towers of Sunset / #3 The Magic Engineer / #4 The Order War / #5 The Death of Chaos / #6 Fall of Angels / #7 The Chaos Balance / #8 The White Order / #9 Colors of Chaos / #10 Magi’i of Cyador / #11 Scion of Cyador / #12 Wellspring of Chaos / #13 Ordermaster / #14 Natural Order Mage / #15 Mage-Guard of Hamor / #16 Arms-Commander / #17 Cyador’s Heirs / #18 Heritage of Cyador /#19 The Mongrel Mage / #20 Outcasts of Order / #21 The Mage-Fire War (forthcoming) Story Collection: Recluce Tales Other Series by L.E. Modesitt, Jr. The Imager Portfolio The Corean Chronicles The Spellsong Cycle The Ghost Books The Ecolitan Matter At the Publisher's request, this title is being sold without Digital Rights Management Software (DRM) applied.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781429913829"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1429913827"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": false
+        },
+        "pageCount": 703,
+        "printType": "BOOK",
+        "categories": [
+          "Fiction"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "0.16.18.0.preview.2",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=8B0AkawTNXUC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=8B0AkawTNXUC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=8B0AkawTNXUC&printsec=frontcover&dq=l+e+modistte&hl=&cd=3&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=8B0AkawTNXUC&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=8B0AkawTNXUC"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 14.99,
+          "currencyCode": "USD"
+        },
+        "retailPrice": {
+          "amount": 14.99,
+          "currencyCode": "USD"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=8B0AkawTNXUC&rdid=book-8B0AkawTNXUC&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 14990000,
+              "currencyCode": "USD"
+            },
+            "retailPrice": {
+              "amountInMicros": 14990000,
+              "currencyCode": "USD"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=8B0AkawTNXUC&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "His enemies don&#39;t expect him to survive . . . “An intriguing fantasy in a fascinating world.”—Robert Jordan, New York Times bestselling author of The Wheel of Time® series Saga of Recluce #1 The Magic of Recluce / #2 The Towers of ..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "lW1Gc8mZQ_wC",
+      "etag": "jMk3qPxH4rU",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/lW1Gc8mZQ_wC",
+      "volumeInfo": {
+        "title": "Flash",
+        "authors": [
+          "L. E. Modesitt, Jr."
+        ],
+        "publisher": "Macmillan",
+        "publishedDate": "2004-09-01",
+        "description": "Return to the future of Archform: Beauty. In the twenty-fourth century, Earth is vastly changed. Ecological and biological catastrophe have raged across the planet, but for the survivors, it is a world of plenty. Even the poorest live in abundance, and the upper class -- the ascendant -- command technological marvels. Ten years ago, Jonat deVrai was a rising star in the Marines. But he shocked his superiors by walking away from the Corps after witnessing atrocity and hypocrisy during the Reclamation of Guyana. Starting his life over, he established himself as the world's expert on the effectiveness of \"prod\"-- product placement, the only advertising which viewers will allow through the sophisticated filters they all use against unwanted intrusions on their electronic link networks. Prod, reinforced with sublims and the \"res\" -- resonant frequencies, a form of sonic branding -- is the wave of the future. Jonat now advises multinational corporations on their prod campaigns, his busy life only occasionally disturbed by vivid flashbacks to his military years. Then his comfortable world is upset when the Centre for Societal Research approaches him to study the effects of res and prod on political campaigns. After a res-heavy political rally for Laborite Republican Senatorial candidate Juan Carlismo, armed thugs jump deVrai in a parking garage. A day later, a sniper ambushes him. What looked like a safe, lucrative contract has suddenly turned dangerous. The stakes raise further when deVrai foils a remote-controlled cydroid assassination attempt on a Popular Democrat candidate. Cydroids built from deVrai's stolen DNA are turning up dead throughout NorAm. Suspicion and conspiracy race around Jonat. Who wants him dead? Candidate Juan Carlismo's use of prod is skirting the limits of legality. The Centre has its own obscure agenda and may want deVrai as a martyr. The terrorist group PAMD is targeting ascendents in deVrai's family. And one of his clients is known for holding legendary grudges - could he have gone over the edge? With his life on the line, deVrai must sort flash from fact before it's too late. Flash is a blend of all-out thriller and thoughtful social, political, and technological exploration that that gets into your mind in a way even res and prod could never match. \"A marvelous thriller that plausibly extrapolates from current possibilities in IT, AI, media, and crime, it also constitutes the way for newcomers to get acquainted with Modesitt--at his best.\"--Booklist Other Series by L.E. Modesitt, Jr. The Saga of Recluce The Imager Portfolio The Corean Chronicles The Spellsong Cycle The Ghost Books The Ecolitan Matter The Forever Hero Timegod's World Other Books The Green Progression Hammer of Darkness The Parafaith War Adiamante Gravity Dreams The Octagonal Raven Archform: Beauty The Ethos Effect Flash The Eternity Artifact The Elysium Commission Viewpoints Critical Haze Empress of Eternity The One-Eyed Man Solar Express At the Publisher's request, this title is being sold without Digital Rights Management Software (DRM) applied.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781429913959"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1429913959"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": false
+        },
+        "pageCount": 540,
+        "printType": "BOOK",
+        "categories": [
+          "Fiction"
+        ],
+        "averageRating": 4.5,
+        "ratingsCount": 2,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "2.7.10.0.preview.2",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=lW1Gc8mZQ_wC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=lW1Gc8mZQ_wC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=lW1Gc8mZQ_wC&printsec=frontcover&dq=l+e+modistte&hl=&cd=4&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=lW1Gc8mZQ_wC&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=lW1Gc8mZQ_wC"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 14.99,
+          "currencyCode": "USD"
+        },
+        "retailPrice": {
+          "amount": 14.99,
+          "currencyCode": "USD"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=lW1Gc8mZQ_wC&rdid=book-lW1Gc8mZQ_wC&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 14990000,
+              "currencyCode": "USD"
+            },
+            "retailPrice": {
+              "amountInMicros": 14990000,
+              "currencyCode": "USD"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=lW1Gc8mZQ_wC&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "&quot;--Booklist Other Series by L.E. Modesitt, Jr. The Saga of Recluce The Imager Portfolio The Corean Chronicles The Spellsong Cycle The Ghost Books The Ecolitan Matter The Forever Hero Timegod&#39;s World Other Books The Green Progression Hammer ..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "iaQ9U_Fvj4oC",
+      "etag": "k4VskwVSA58",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/iaQ9U_Fvj4oC",
+      "volumeInfo": {
+        "title": "Archform: Beauty",
+        "authors": [
+          "L. E. Modesitt, Jr."
+        ],
+        "publisher": "Macmillan",
+        "publishedDate": "2010-04-01",
+        "description": "Most readers recognize L. E. Modesitt, Jr., as the author of a favorite fantasy series, be it The Magic of Recluce or The Spellsong Cycle. It's always a special treat when he turns his hand again to science fiction and Archform: Beauty is no exception. Four centuries in the future, the world is rich--nanomachines watch the health of the wealthy and manufacture food and gadgets for everybody--but no Utopia, as we see in the lives of five very different people. A singing teacher suffers for her music and fights bureaucracy and apathy. A news researcher delivers the essential background details but can't help looking deeper and wondering about the real story behind the grim incidents that make the headlines. A police investigator, assigned to study trends, begins to see a truly sinister pattern behind a series of seemingly unrelated crimes and deaths. A politician aids his constituents, fights the good fight, and tries to get reelected without compromising his principles. A ruthless businessman strives to make his family powerful, wealthy, and independent. Theirs is a society where technology takes care of everyone's basic needs but leaves most people struggling to extract a meaningful life from a world crowded with wonders but empty of commitment and human connection. Alternating the voices and experiences of these five characters in a tour de force of imaginative creation, Modesitt overlaps, combines, and builds their disparate stories into a brilliant tale of future crime and investigation, esthetic challenge and personal triumph. In the same way that he has built fantasy landscapes of surpassing fascination, Modesitt creates a believable future, one imbued with a deep understanding of the way politics works and how people act and react when their sense of themselves, of justice and truth, is exploited by others for power and control. When there's nothing left to need or want, will beauty live on in people's lives or disappear forever? L. E. Modesitt, Jr. asks difficult questions, sets himself unlikely challenges, and once again delivers an absorbing tale that enlightens, entertains, and uplifts all at once. \"Modesitt has outdone himself...This brilliant novel is as thought-provoking as it is entertaining.\"--Publishers Weekly (starred review) Other Series by L.E. Modesitt, Jr. The Saga of Recluce The Imager Portfolio The Corean Chronicles The Spellsong Cycle The Ghost Books The Ecolitan Matter The Forever Hero Timegod's World Other Books The Green Progression Hammer of Darkness The Parafaith War Adiamante Gravity Dreams The Octagonal Raven Archform: Beauty The Ethos Effect Flash The Eternity Artifact The Elysium Commission Viewpoints Critical Haze Empress of Eternity The One-Eyed Man Solar Express At the Publisher's request, this title is being sold without Digital Rights Management Software (DRM) applied.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781429913874"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1429913878"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": false
+        },
+        "pageCount": 356,
+        "printType": "BOOK",
+        "categories": [
+          "Fiction"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "3.11.15.0.preview.2",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=iaQ9U_Fvj4oC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=iaQ9U_Fvj4oC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=iaQ9U_Fvj4oC&printsec=frontcover&dq=l+e+modistte&hl=&cd=5&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=iaQ9U_Fvj4oC&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=iaQ9U_Fvj4oC"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 12.99,
+          "currencyCode": "USD"
+        },
+        "retailPrice": {
+          "amount": 12.99,
+          "currencyCode": "USD"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=iaQ9U_Fvj4oC&rdid=book-iaQ9U_Fvj4oC&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 12990000,
+              "currencyCode": "USD"
+            },
+            "retailPrice": {
+              "amountInMicros": 12990000,
+              "currencyCode": "USD"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=iaQ9U_Fvj4oC&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "&quot;Modesitt has outdone himself...This brilliant novel is as thought-provoking as it is entertaining."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "Rp17ZGiUymIC",
+      "etag": "scDbaLs5nYY",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/Rp17ZGiUymIC",
+      "volumeInfo": {
+        "title": "Gravity Dreams",
+        "authors": [
+          "L. E. Modesitt (Jr.)"
+        ],
+        "publisher": "Macmillan",
+        "publishedDate": "1999",
+        "description": "Set in the distant future, our hero, born and raised in a conservative religious culture, is exiled to a more advanced civilization to which he must adjust. What no one expects is that the young pilot might meet God, or at least a superior being, in space.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9780312868260"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "031286826X"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 404,
+        "printType": "BOOK",
+        "categories": [
+          "Fiction"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.3.3.0.preview.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=Rp17ZGiUymIC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=Rp17ZGiUymIC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=Rp17ZGiUymIC&printsec=frontcover&dq=l+e+modistte&hl=&cd=6&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=Rp17ZGiUymIC&dq=l+e+modistte&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Gravity_Dreams.html?hl=&id=Rp17ZGiUymIC"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=Rp17ZGiUymIC&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Set in the distant future, our hero, born and raised in a conservative religious culture, is exiled to a more advanced civilization to which he must adjust."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "e3tpKCT6Fz0C",
+      "etag": "2YKpucbelMk",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/e3tpKCT6Fz0C",
+      "volumeInfo": {
+        "title": "The Magic Engineer",
+        "authors": [
+          "L. E. Modesitt, Jr."
+        ],
+        "publisher": "Tor Fantasy",
+        "publishedDate": "2014-01-14",
+        "description": "In L. E. Modesitt, Jr.'s The Magic Engineer, Dorrin, a young scion of Order magicians, is interested in forbidden knowledge—the working of machines. He is the Leonardo da Vinci of his age, but his insights violate the rules of the Order magic of Recluce, and in order to pursue his invention he must go into exile—in the lands of Chaos. Tortured by the knowledge that to preserve Order he must create new devices for war, Dorrin stands between Recluce and the forces of the Chaos that seek to destroy it. \"An intriguing fantasy in a fascinating world.\"—Robert Jordan, New York Times bestselling author of The Wheel of Time® series Saga of Recluce #1 The Magic of Recluce / #2 The Towers of Sunset / #3 The Magic Engineer / #4 The Order War / #5 The Death of Chaos / #6 Fall of Angels / #7 The Chaos Balance / #8 The White Order / #9 Colors of Chaos / #10 Magi’i of Cyador / #11 Scion of Cyador / #12 Wellspring of Chaos / #13 Ordermaster / #14 Natural Order Mage / #15 Mage-Guard of Hamor / #16 Arms-Commander / #17 Cyador’s Heirs / #18 Heritage of Cyador /#19 The Mongrel Mage / #20 Outcasts of Order / #21 The Mage-Fire War (forthcoming) Story Collection: Recluce Tales Other Series by L.E. Modesitt, Jr. The Imager Portfolio The Corean Chronicles The Spellsong Cycle The Ghost Books The Ecolitan Matter At the Publisher's request, this title is being sold without Digital Rights Management Software (DRM) applied.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781429995382"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1429995386"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": false
+        },
+        "pageCount": 628,
+        "printType": "BOOK",
+        "categories": [
+          "Fiction"
+        ],
+        "averageRating": 4.5,
+        "ratingsCount": 4,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "0.13.14.0.preview.2",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=e3tpKCT6Fz0C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=e3tpKCT6Fz0C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=e3tpKCT6Fz0C&printsec=frontcover&dq=l+e+modistte&hl=&cd=7&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=e3tpKCT6Fz0C&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=e3tpKCT6Fz0C"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 7.99,
+          "currencyCode": "USD"
+        },
+        "retailPrice": {
+          "amount": 7.99,
+          "currencyCode": "USD"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=e3tpKCT6Fz0C&rdid=book-e3tpKCT6Fz0C&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 7990000,
+              "currencyCode": "USD"
+            },
+            "retailPrice": {
+              "amountInMicros": 7990000,
+              "currencyCode": "USD"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=e3tpKCT6Fz0C&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "&quot;An intriguing fantasy in a fascinating world.&quot;—Robert Jordan, New York Times bestselling author of The Wheel of Time® series Saga of Recluce #1 The Magic of Recluce / #2 The Towers of Sunset / #3 The Magic Engineer / #4 The Order War /  ..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "6ypyOyyljCcC",
+      "etag": "22F6gXIHMRU",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/6ypyOyyljCcC",
+      "volumeInfo": {
+        "title": "Shadows On The Soul",
+        "authors": [
+          "Jenna Black"
+        ],
+        "publisher": "Macmillan",
+        "publishedDate": "2007-08-28",
+        "description": "Crowning himself the Master of Baltimore after defeating his mother in battle, Gabriel, a five-hundred-year-old vampire, is forced into an uneasy alliance with his father, Eli, Master of Philadelphia and leader of the Watchers, vampires who have vowed to protect humans, when an ancient enemy targets the woman Gabriel loves.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9780765357175"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "0765357178"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 308,
+        "printType": "BOOK",
+        "categories": [
+          "Fiction"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.3.3.0.preview.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=6ypyOyyljCcC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=6ypyOyyljCcC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=6ypyOyyljCcC&pg=PP3&dq=l+e+modistte&hl=&cd=8&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=6ypyOyyljCcC&dq=l+e+modistte&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Shadows_On_The_Soul.html?hl=&id=6ypyOyyljCcC"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=6ypyOyyljCcC&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "... \u003cb\u003eL.E. Modesitt\u003c/b\u003e , Jr. is a great start to what looks like will be a tremendous series ... With the talent of Mr. Modesitt , Jr. fans will anticipate even greater insight yet filled with non- stop action and excitement as the audience&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "lJCS0reqmFUC",
+      "etag": "9eR5MYtNTWg",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/lJCS0reqmFUC",
+      "volumeInfo": {
+        "title": "Brave New Words",
+        "subtitle": "The Oxford Dictionary of Science Fiction",
+        "authors": [
+          "Jeff Prucher"
+        ],
+        "publisher": "Oxford University Press",
+        "publishedDate": "2007-05-07",
+        "description": "Winner of a 2008 Hugo Award, this new paperback takes readers on spectacular tour of the language created by science fiction. From \"Stargate\" to \"Force Field,\" this dictionary opens a fascinating window into an entire genre, through the words invented by science fiction's most talented writers, critics, and fans. Each entry includes numerous citations of the word's usage, from the earliest known appearance forward. Drawn not only from science fiction novels and stories, citations also come from fanzines, screenplays, comics, songs, and the Internet.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9780199885527"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "0199885524"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 509,
+        "printType": "BOOK",
+        "categories": [
+          "Reference"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "2.6.6.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=lJCS0reqmFUC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=lJCS0reqmFUC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=lJCS0reqmFUC&pg=PP233&dq=l+e+modistte&hl=&cd=9&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=lJCS0reqmFUC&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=lJCS0reqmFUC"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 13.99,
+          "currencyCode": "USD"
+        },
+        "retailPrice": {
+          "amount": 9.99,
+          "currencyCode": "USD"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=lJCS0reqmFUC&rdid=book-lJCS0reqmFUC&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 13990000,
+              "currencyCode": "USD"
+            },
+            "retailPrice": {
+              "amountInMicros": 9990000,
+              "currencyCode": "USD"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com/books/download/Brave_New_Words-sample-epub.acsm?id=lJCS0reqmFUC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com/books/download/Brave_New_Words-sample-pdf.acsm?id=lJCS0reqmFUC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=lJCS0reqmFUC&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "... \u003cb\u003eL. E. Modesitt\u003c/b\u003e , Jr. Ecolitan Enigma in Ecolitan Prime ( 2003 ) 344 : They suggested , and attempted to carry out , a program which reduced social benefits in order to fund greater infrastructure development on the out [ - ] planets&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "zxIUb3EF5QEC",
+      "etag": "Uhk5ZgMjgj0",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/zxIUb3EF5QEC",
+      "volumeInfo": {
+        "title": "Viewpoints Critical",
+        "subtitle": "Selected Stories",
+        "authors": [
+          "L. E. Modesitt, Jr."
+        ],
+        "publisher": "Tor Books",
+        "publishedDate": "2009-04-14",
+        "description": "This is the first story collection ever from bestselling fantasy and science fiction writer L. E. Modesitt, Jr. Modesitt began publishing short fiction in the SF magazines in the 1970s, and this collection includes a selection of stories from the whole of his career. Some of the early stories are kernels for his early SF novels, others display the wide range of his talents and interests, from satire to military adventure. This book also contains three new stories that have never been published before: \"Black Ordermage,\" set in Modesitt's bestselling Recluce series; \"Beyond the Obvious Wind,\" set in his Corean Chronicles universe; and \"Always Outside the Lines,\" which is related to the Ghost of Columbia books. Viewpoints Critical is an excellent introduction to the work of one of the major SF and fantasy writers publishing today. Series by L.E. Modesitt, Jr. The Saga of Recluce / The Imager Portfolio / The Corean Chronicles / The Spellsong Cycle / The Ghost Books / The Ecolitan Matter / The Forever Hero / Timegod's World Other Books The Green Progression / Hammer of Darkness / The Parafaith War / Adiamante / Gravity Dreams / The Octagonal Raven / Archform: Beauty / The Ethos Effect / Flash / The Eternity Artifact / The Elysium Commission / Haze / Empress of Eternity / The One-Eyed Man / Solar Express At the Publisher's request, this title is being sold without Digital Rights Management Software (DRM) applied.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781429984133"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1429984139"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": false
+        },
+        "pageCount": 500,
+        "printType": "BOOK",
+        "categories": [
+          "Fiction"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "3.11.9.0.preview.2",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=zxIUb3EF5QEC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=zxIUb3EF5QEC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=zxIUb3EF5QEC&printsec=frontcover&dq=l+e+modistte&hl=&cd=10&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=zxIUb3EF5QEC&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=zxIUb3EF5QEC"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 12.99,
+          "currencyCode": "USD"
+        },
+        "retailPrice": {
+          "amount": 12.99,
+          "currencyCode": "USD"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=zxIUb3EF5QEC&rdid=book-zxIUb3EF5QEC&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 12990000,
+              "currencyCode": "USD"
+            },
+            "retailPrice": {
+              "amountInMicros": 12990000,
+              "currencyCode": "USD"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=zxIUb3EF5QEC&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "This is the first story collection ever from bestselling fantasy and science fiction writer L. E. Modesitt, Jr. Modesitt began publishing short fiction in the SF magazines in the 1970s, and this collection includes a selection of stories ..."
+      }
+    }
     ]
 }
