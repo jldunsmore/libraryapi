@@ -1,4 +1,4 @@
-package main
+package services
 
 import (
 	"encoding/json"
@@ -6,9 +6,11 @@ import (
 	"log"
 	"net/http"
 	"strings"
+
+	"github.com/libraryapi/internal/database"
 )
 
-func handleClientProfile(w http.ResponseWriter, r *http.Request) {
+func HandleClientProfile(w http.ResponseWriter, r *http.Request) {
 	switch r.Method {
 	case http.MethodGet:
 		SearchDatabase(w, r)
@@ -21,7 +23,7 @@ func handleClientProfile(w http.ResponseWriter, r *http.Request) {
 }
 
 func SearchDatabase(w http.ResponseWriter, r *http.Request) {
-	user := r.Context().Value("user").(User)
+	user := r.Context().Value("user").(database.User)
 	log.Println("searching database, ", user.Name)
 
 	var searchTerm = r.URL.Query()
@@ -53,19 +55,19 @@ func SearchDatabase(w http.ResponseWriter, r *http.Request) {
 }
 
 func GetBookByTerm(w http.ResponseWriter, r *http.Request, searchTerm string, value string) {
-	user := r.Context().Value("user").(User)
+	user := r.Context().Value("user").(database.User)
 	log.Println("Looking for book, ", user.Name)
 
 	var term string
 	switch searchTerm {
 	case "isbn":
-		response, err := searchByISBN(value)
+		response, err := database.SearchByISBN(value)
 		finish(w, response, err, term)
 	case "title":
-		response, err := searchByTitle(value)
+		response, err := database.SearchByTitle(value)
 		finish(w, response, err, term)
 	case "author":
-		response, err := searchByAuthor(value)
+		response, err := database.SearchByAuthor(value)
 		finish(w, response, err, term)
 	default:
 		http.Error(w, "Invalid search type", http.StatusBadRequest)
@@ -86,10 +88,10 @@ func finish[T any](w http.ResponseWriter, response T, err error, term string) {
 }
 
 func GetListOfBookByAuthor(w http.ResponseWriter, r *http.Request) {
-	user := r.Context().Value("user").(User)
+	user := r.Context().Value("user").(database.User)
 	log.Println("Making list of books by author, " + user.Name)
 
-	response := getListByAuthor()
+	response := database.GetListByAuthor()
 
 	w.Header().Set("Content-Type", "application/json")
 

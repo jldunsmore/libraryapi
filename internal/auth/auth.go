@@ -1,15 +1,19 @@
-package main
+package auth
 
 import (
 	c "context"
 	"net/http"
 	"strings"
+
+	"github.com/libraryapi/internal/database"
 )
 
 func TokenAuthMiddleware(next http.HandlerFunc) http.HandlerFunc {
 	return func(w http.ResponseWriter, r *http.Request) {
 		var userId = r.URL.Query().Get("userId")
-		user, ok := userDatabase[userId]
+
+		user, ok := database.GetUser(userId)
+
 		if !ok || userId == "" {
 			http.Error(w, "Forbidden", http.StatusForbidden)
 			return
@@ -28,7 +32,7 @@ func TokenAuthMiddleware(next http.HandlerFunc) http.HandlerFunc {
 	}
 }
 
-func isValidToken(user User, token string) bool {
+func isValidToken(user database.User, token string) bool {
 	if strings.HasPrefix(token, "Bearer ") {
 		return strings.TrimPrefix(token, "Bearer ") == user.Token
 	}

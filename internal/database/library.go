@@ -1,4 +1,4 @@
-package main
+package database
 
 import (
 	"encoding/json"
@@ -15,6 +15,11 @@ import (
 // 	Title string `json:"title"`
 // 	Id    string `json:"id"`
 // }
+
+type User struct {
+	Name  string
+	Token string
+}
 
 type BookAuthors struct {
 	Authors []string `json:"authors"`
@@ -96,6 +101,13 @@ type BookList struct {
 	List   []BookCard
 }
 
+func GetUser(userId string) (User, bool) {
+	var user User
+	user.Name = "John Doe"
+	user.Token = "1234"
+	return user, true
+}
+
 func database() []Book {
 	bookJsonFile, err := os.Open("books.json")
 
@@ -117,7 +129,7 @@ func database() []Book {
 	return books.Books
 }
 
-func searchByISBN(isbn string) (Book, error) {
+func SearchByISBN(isbn string) (Book, error) {
 	var books = database()
 	fmt.Printf("Searching for ISBN: %s\n", isbn)
 
@@ -134,7 +146,7 @@ func searchByISBN(isbn string) (Book, error) {
 	return response, errors.New("404")
 }
 
-func searchByTitle(title string) ([]BookCard, error) {
+func SearchByTitle(title string) ([]BookCard, error) {
 	var books = database()
 	fmt.Printf("Searching for Author: %s\n", title)
 
@@ -157,7 +169,7 @@ func searchByTitle(title string) ([]BookCard, error) {
 	}
 }
 
-func searchByAuthor(author string) (BookList, error) {
+func SearchByAuthor(author string) (BookList, error) {
 	var books = database()
 	fmt.Printf("Searching for Author: %s\n", author)
 
@@ -183,7 +195,7 @@ func searchByAuthor(author string) (BookList, error) {
 	}
 }
 
-func getListByAuthor() []BookList {
+func GetListByAuthor() []BookList {
 	var books = database()
 
 	var authors []BookList

@@ -8,19 +8,22 @@ import (
 	"os/signal"
 	"syscall"
 	"time"
+
+	"github.com/libraryapi/internal/auth"
+	"github.com/libraryapi/internal/services"
 )
 
 type Middleware func(http.HandlerFunc) http.HandlerFunc
 
 var middleware = []Middleware{
-	TokenAuthMiddleware,
+	auth.TokenAuthMiddleware,
 }
 
 func main() {
 	ctx, stop := signal.NotifyContext(context.Background(), os.Interrupt, syscall.SIGTERM)
 	defer stop()
 
-	var handler http.HandlerFunc = handleClientProfile
+	var handler http.HandlerFunc = services.HandleClientProfile
 
 	for _, middleware := range middleware {
 		handler = middleware(handler)
